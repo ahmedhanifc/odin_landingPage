@@ -1,0 +1,63 @@
+/* Example of media query for mobile devices */
+@media only screen and (max-width: 700px) {
+
+    .right-links{
+        padding-top:20px;
+        gap:20px;
+        /* flex-direction: column; */
+    }
+    header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title-container{
+        flex-wrap: wrap;
+    }
+    .section-two{
+        padding-top: 60px;
+    }
+  header {
+    padding: 20px;
+  }
+
+  .right-links {
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  /* Adjust font sizes for readability */
+  .title-container h1,
+  .quotes-container h1,
+  .section-one h1,
+  .section-one p {
+    font-size: 3rem;
+    line-height: 1.2;
+  }
+
+  /* Adjust image container and slideshow */
+  .image-container,
+  .image-slideshow {
+    margin: 20px;
+  }
+
+  /* Make images responsive */
+  .image {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Adjust padding and margins */
+  .section-one button,
+  .sign-up-container button {
+    padding-top: 10px;
+    margin: 10px 0;
+  }
+
+  /* Adjust quotes container margin */
+  .quotes-container {
+    margin: 50px 20px;
+  }
+}

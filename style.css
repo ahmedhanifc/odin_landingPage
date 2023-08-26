@@ -11,26 +11,6 @@
     font-size: 1.4rem;
 }
 
-/* Media Quaries */
-@media only screen and (max-width: 700px){
-    .right-links{
-        padding-top:20px;
-        gap:20px;
-        /* flex-direction: column; */
-    }
-    header{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .title-container{
-        flex-wrap: wrap;
-    }
-    .section-two{
-        padding-top: 60px;
-    }
-}
 
 /*-------------------------------------------------------------------------------------*/
 
