@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@400;500;700&family=PT+Sans&family=Ubuntu:wght@700&display=swap');
+
 *{
     margin: 0;
     padding:0;
@@ -5,11 +7,12 @@
     background: #fdf4e2;
     list-style: none;
     text-decoration: none;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-size: 1.4rem;
 }
 
 /* Media Quaries */
-
-@media only screen and (max-width: 660px){
+@media only screen and (max-width: 700px){
     .right-links{
         padding-top:20px;
         gap:20px;
@@ -23,11 +26,6 @@
 
     .title-container{
         flex-wrap: wrap;
-    }
-    #mobile_font{
-        font-size: 2rem;
-        line-height: 50px;
-
     }
     .section-two{
         padding-top: 60px;
@@ -71,12 +69,11 @@ header{
     flex:1;
 }
 .section-one> h1 {
-    font-size:4rem ;
-    line-height: 90px;
     padding-bottom: 30px;
 }
 
-.section-one button {
+.section-one button,
+.sign-up-container button {
     padding:20px 40px;
     border-radius:16px;
     margin:0 20px;
@@ -100,8 +97,14 @@ header{
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.image-container h1 {
-    font-size: 4rem;
+.image-container h1,
+.quotes-container h1,
+.section-one h1,
+.section-one p{
+    font-size: 5rem;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-weight: 800;
+    line-height: 100px;
 }
 .image-slideshow{
     display: flex;
@@ -119,11 +122,15 @@ header{
 
 .quotes-container{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     margin:50px;
 }
-.quote{
+
+div.quote{
     padding:20px;
+    margin:50px;
 }
 .quote-author{
     align-self: flex-end;
@@ -135,6 +142,25 @@ header{
 
 
 /* Footer */
+.sign-up-container{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+}
+.sign-up-text{
+    font-size: 2rem;
+}
+.sign-up-container button{
+    margin-top: 30px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
 
 /*-------------------------------------------------------------------------------------*/
 
