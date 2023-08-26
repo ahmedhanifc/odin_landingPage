@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    background: #fdf4e2;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Media Quaries */
+
+@media only screen and (max-width: 660px){
+    .right-links{
+        padding-top:20px;
+        gap:20px;
+        /* flex-direction: column; */
+    }
+    header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title-container{
+        flex-wrap: wrap;
+    }
+    #mobile_font{
+        font-size: 2rem;
+        line-height: 50px;
+
+    }
+    .section-two{
+        padding-top: 60px;
+    }
+}
+
+/*-------------------------------------------------------------------------------------*/
+
+/* Header */
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding:50px;
+}
+
+.right-links {
+    display: flex;
+    width:500px;
+    justify-content: space-evenly;
+    /* margin-left: auto; */
+}
+.right-links > ul {
+    display: flex;
+    gap:10px;
+    flex-shrink: 0;
+}
+
+/*-------------------------------------------------------------------------------------*/
+
+/* main */
+
+.title-container{
+    display: flex;
+    justify-content: space-around;
+    padding:30px;
+    margin:0px 40px;
+}
+.section-one{
+    flex:1;
+}
+.section-one> h1 {
+    font-size:4rem ;
+    line-height: 90px;
+    padding-bottom: 30px;
+}
+
+.section-one button {
+    padding:20px 40px;
+    border-radius:16px;
+    margin:0 20px;
+}
+
+.title-image{
+    max-width: 100%;
+    height:auto;
+}
+
+/*-------------------------------------------------------------------------------------*/
+
+
+
+/* Footer */
+
+/*-------------------------------------------------------------------------------------*/
+
